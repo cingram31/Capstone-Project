@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+/*import codepen from 'react-codepen';*/
 
 class Operators extends Component {
 	render() {
@@ -9,6 +10,8 @@ class Operators extends Component {
 				important little deals here. Your code will not work with them. 
 				And I'm not even kidding!</p>
 				<hr />
+			
+			{/*<codepen user="christianingram" hash="XmWNEY"></codepen>*/}
 			</div>
 		);
 	}

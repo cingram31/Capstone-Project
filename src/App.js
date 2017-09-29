@@ -12,7 +12,15 @@ import {
 
 import { routes } from './constants/routes';
 
-class App extends Component {
+const App = () => (
+  <div>
+    <Router>
+      <Routes />
+    </Router>
+  </div>
+  )
+
+{/*class App extends Component {
   render() {
     return (
     <div>
@@ -36,6 +44,6 @@ class App extends Component {
 
     );
   }
-}
+}*/}
 
 export default App;

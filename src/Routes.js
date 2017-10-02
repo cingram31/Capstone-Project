@@ -12,16 +12,17 @@ import { routes } from './constants/routes';
 
 const Routes = () => (
 
-	<div style={{ display: 'flex'}}>
+	<div style={{ display: 'flex' }}>
 		<div style={{
-			padding: '10px',
+			padding: '30px',
 			width: '20%',
-			background: '#f0f0f0'
+			background: '#f0f0f0',
+
 		}}>
 
 			<ul style={{ listStyleType: 'none', padding: 0 }}>
 				<li><Link to="/">Intro</Link></li>
-				<li><Link to="/operators">Operators</Link></li>
+				<li><Link to="/statevsexpress">Statements vs Expression</Link></li>
 				<li><Link to="/conditionals">Conditionals</Link></li>
 			</ul>
 		</div>

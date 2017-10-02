@@ -1,6 +1,6 @@
 import React from 'react';
 import Intro from '../components/VJSIntro';
-import Operators from '../components/operators';
+import Statevsexpress from '../components/statevsexpress';
 import Conditionals from '../components/conditionals';
 
 export const routes = [
@@ -9,9 +9,9 @@ export const routes = [
 	  sidebar: () => <div>VJSIntro</div>,
 	  main: () => <h2><Intro /></h2>
 	},
-	{ path: '/operators',
-	  sidebar: () => <div>Operators</div>,
-	  main: () => <Operators />
+	{ path: '/statevsexpress',
+	  sidebar: () => <div>Statements vs Expressions</div>,
+	  main: () => <Statevsexpress />
 	},
 	{ path: '/conditionals',
 	  sidebar: () => <div>Conditionals</div>,

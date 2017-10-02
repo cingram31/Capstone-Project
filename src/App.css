@@ -1,3 +1,36 @@
+.VJSIntro {
+  background-color: #FFFFF0; 
+}
+
+.VJSIntro-title {
+  text-align: center;
+  font-size: 2em;
+}
+
+
+
+.StvsEx {
+  background-color: #FFFFF0;
+}
+
+.StvsEx-title {
+  text-align: center;
+  font-size: 3em;
+}
+
+.StvsEx-intro {
+  /*font-size: 2em;*/
+}
+
+.Condis {
+  background-color: #FFFFF0;
+}
+
+.Condis-title {
+  text-align: center;
+  font-size: 3em;
+}
+
 .App {
   text-align: center;
 }

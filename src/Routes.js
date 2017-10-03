@@ -21,7 +21,8 @@ const Routes = () => (
 		}}>
 
 			<ul style={{ listStyleType: 'none', padding: 0 }}>
-				<li><Link to="/">Intro</Link></li>
+				<li><Link to="/">Home</Link></li>
+				<li><Link to="/VJSIntro">Intro</Link></li>
 				<li><Link to="/statevsexpress">Statements vs Expression</Link></li>
 				<li><Link to="/conditionals">Conditionals</Link></li>
 				<li><Link to="/loops">Loops</Link></li>

@@ -1,14 +1,19 @@
 import React from 'react';
+import Home from '../components/home';
 import Intro from '../components/VJSIntro';
 import Statevsexpress from '../components/statevsexpress';
 import Conditionals from '../components/conditionals';
 import Loops from '../components/loops';
 
 export const routes = [
-	{ path: '/' || '/VJSIntro',
+	{ path: '/' || '/home',
 	  exact: true,
+	  sidebar: () => <div>Home</div>,
+	  main: () => <h2><Home /></h2>
+	},
+	{ path: '/VJSIntro',
 	  sidebar: () => <div>VJSIntro</div>,
-	  main: () => <h2><Intro /></h2>
+	  main: () => <Intro />
 	},
 	{ path: '/statevsexpress',
 	  sidebar: () => <div>Statements vs Expressions</div>,

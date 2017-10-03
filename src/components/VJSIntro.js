@@ -11,7 +11,6 @@ class VJSIntro extends Component {
 				which adds interactivity to websites.</p>
 				<hr /> 
 			
-			<div className="container">
 				<h3 className="VJSIntro-header">About Javascript</h3>
 					<ul>
 						<li>Developed in 1995 by Netscape Communications Corp.</li>
@@ -25,12 +24,9 @@ class VJSIntro extends Component {
 						reload it.</li>
 						<li>Display or interact with data retrieved from a remote server.</li>
 					</ul>
-
 				
-
 			</div>
-			</div>
-
+			
 		);
 	}
 

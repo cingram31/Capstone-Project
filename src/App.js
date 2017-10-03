@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Intro from './components/VJSIntro';
 import Routes from './Routes.js';
+import Home from './components/home';
 import logo from './logo.svg';
 import './App.css';
 import './index.css';

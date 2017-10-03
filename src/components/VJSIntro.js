@@ -12,7 +12,7 @@ class VJSIntro extends Component {
 				<hr /> 
 			
 			<div className="container">
-				<h4>About Javascript</h4>
+				<h3 className="VJSIntro-header">About Javascript</h3>
 					<ul>
 						<li>Developed in 1995 by Netscape Communications Corp.</li>
 						<li>Validates the contents of a form and makes calculations.</li>
@@ -26,6 +26,7 @@ class VJSIntro extends Component {
 						<li>Display or interact with data retrieved from a remote server.</li>
 					</ul>
 
+				
 
 			</div>
 			</div>

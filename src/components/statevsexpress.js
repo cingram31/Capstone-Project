@@ -8,7 +8,7 @@ class Statevsexpress extends Component {
 				<h3 className="StvsEx-title">Statements vs Expressions</h3>
 				<hr />
 
-				<h4 className="StvsEx-intro">Statements</h4>
+				<h4 className="StvsEx-header">Statements</h4>
 					<p>A Statement is a section of code that performs a single action. 
 					It is possible to break a Statement into multiple lines. 
 					A semi-colon marks the end of a statement. </p>
@@ -25,7 +25,7 @@ class Statevsexpress extends Component {
 				<hr />
 
 			<div>
-				<h4 className="StvsEx-intro">Expressions</h4>
+				<h4 className="StvsEx-header">Expressions</h4>
 					<p>An Expression is a combination of variables and values that the Javascript 
 					interpreter can evaluate to a single value, like 2+2=4. The characters that are 
 					used to combine these values are called operators.

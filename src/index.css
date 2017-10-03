@@ -9,5 +9,8 @@ body {
   font-weight: bold;
   background-position: center left;
   position: relative;
+}
 
+p {
+	font-size: 20px;
 }

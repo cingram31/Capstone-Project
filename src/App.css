@@ -7,7 +7,10 @@
   font-size: 2em;
 }
 
-
+.VJSIntro-header {
+  font-size: 1em;
+  text-decoration: underline;
+}
 
 .StvsEx {
   background-color: #FFFFF0;
@@ -18,8 +21,9 @@
   font-size: 3em;
 }
 
-.StvsEx-intro {
-  /*font-size: 2em;*/
+.StvsEx-header {
+  font-size: 2em;
+  text-decoration: underline;
 }
 
 .Condis {
@@ -29,6 +33,25 @@
 .Condis-title {
   text-align: center;
   font-size: 3em;
+}
+
+.Condis-header {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.Loops {
+  background-color: #FFFFF0;
+}
+
+.Loops-title {
+  text-align: center;
+  font-size: 3em;
+}
+
+.Loops-header {
+  font-size: 2em;
+  text-decoration: underline;
 }
 
 .App {

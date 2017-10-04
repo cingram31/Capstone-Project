@@ -26,6 +26,7 @@ const Routes = () => (
 				<li><Link to="/statevsexpress">Statements vs Expression</Link></li>
 				<li><Link to="/conditionals">Conditionals</Link></li>
 				<li><Link to="/loops">Loops</Link></li>
+				<li><Link to="/Glossary">Glossary</Link></li>
 			</ul>
 		</div>
 

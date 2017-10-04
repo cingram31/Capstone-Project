@@ -4,11 +4,11 @@
 
 .VJSIntro-title {
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .VJSIntro-header {
-  font-size: 1em;
+  font-size: 25px;
   text-decoration: underline;
 }
 
@@ -24,6 +24,11 @@
 .StvsEx-header {
   font-size: 2em;
   text-decoration: underline;
+}
+
+.StvsEx-sub {
+  font-size: 20px;
+  font-style: italic;
 }
 
 .Condis {
@@ -52,6 +57,11 @@
 .Loops-header {
   font-size: 2em;
   text-decoration: underline;
+}
+
+.Gloss-title {
+  text-align: center;
+  font-size: 3em;
 }
 
 .App {

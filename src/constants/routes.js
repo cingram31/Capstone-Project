@@ -4,6 +4,7 @@ import Intro from '../components/VJSIntro';
 import Statevsexpress from '../components/statevsexpress';
 import Conditionals from '../components/conditionals';
 import Loops from '../components/loops';
+import Glossary from '../components/Glossary';
 
 export const routes = [
 	{ path: '/' || '/home',
@@ -27,4 +28,8 @@ export const routes = [
 	  sidebar: () => <div>Loops</div>,
 	  main: () => <Loops />
 	},
+	{ path: '/Glossary',
+	  sidebar: () => <div>Glossary</div>,
+	  main: () => <Glossary />
+	}
 ]

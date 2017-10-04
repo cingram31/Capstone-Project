@@ -14,6 +14,8 @@ class Conditionals extends Component {
 					condition enclosed in parentheses () is true.</p>
 				<h3 className="Condis-header">The if...else Statement</h3>
 					<p>This statement consist of two parts: a condition and an action.</p>
+					<p>if (condition) - block of code be executed when condition is true</p>
+					<p>else - run my code instead when condition is untrue</p>
 				
 
 					

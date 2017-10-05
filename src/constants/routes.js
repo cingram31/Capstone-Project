@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from '../components/home';
+
 import Intro from '../components/VJSIntro';
 import Statevsexpress from '../components/statevsexpress';
 import Conditionals from '../components/conditionals';
@@ -10,7 +11,7 @@ export const routes = [
 	{ path: '/' || '/home',
 	  exact: true,
 	  sidebar: () => <div>Home</div>,
-	  main: () => <h2><Home /></h2>
+	  main: () => <Home />
 	},
 	{ path: '/VJSIntro',
 	  sidebar: () => <div>VJSIntro</div>,

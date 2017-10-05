@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
 
-
-
  class Home extends Component {
     render() {
       return (
-          <div className="button">
-         
-          <button onclick={'Welcome to the Javascript library built with react'}>
-          Welcome to the Javascript library built with React
-          </button>
 
-          </div>
+      	<div>
+
+          	
+
+          	<div className="Home-header">
+          	 	Welcome To The Javascript Library...
+          	 	<p>A Beginners Guide.</p>
+          	 <hr />
+          	</div>
+        </div>
+
+        	
+
         );
     }
  } 

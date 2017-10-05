@@ -72,6 +72,13 @@
   text-align: center;
 }
 
+.Home-header {
+  font-size: 55px;
+  color: #515A5A; 
+  text-shadow: 2px 1px white;
+  text-align: center;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
